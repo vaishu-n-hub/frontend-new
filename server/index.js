@@ -44,7 +44,7 @@ app.post("/customer/customerDetails", async (req, res) => {
     const data = req.body;
 
     const response = await axios.post(
-      "https://dev.aws.hpm.com/customer/customerDetails",
+      "https://backend.vaishnavi.world/customer/customerDetails",
       data,
       { httpsAgent }
     );
@@ -62,7 +62,7 @@ app.post("/driver/driverDetails", async (req, res) => {
     const data = req.body;
 
     const response = await axios.post(
-      "https://dev.aws.hpm.com/driver/driverDetails",
+      "https://backend.vaishnavi.world/driver/driverDetails",
       data,
       { httpsAgent }
     );
